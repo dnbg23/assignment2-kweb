@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>My Quiz Page</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="quiz-container">
+            <h1>Knowledge Quiz</h1>
+
+            <div class="quiz-question">
+                <p>1. What is the capital of South Korea?</p>
+                <input type="radio" name="question1" value="1" id="q1-1"/><label for="q1-1">Busan</label><br />
+                <input type="radio" name="question1" value="2" id="q1-2"/><label for="q1-2">Suwon</label><br />
+                <input type="radio" name="question1" value="3" id="q1-3"/><label for="q1-3">Seoul</label><br />
+                <input type="radio" name="question1" value="4" id="q1-4"/><label for="q1-4">Incheon</label><br />
+            </div>
+
+            <div class="quiz-question">
+                <p>2. Which planet is closest to the sun?</p>
+                <input type="radio" name="question2" value="1" id="q2-1"/><label for="q2-1">Mars</label><br />
+                <input type="radio" name="question2" value="2" id="q2-2"/><label for="q2-2">Venus</label><br />
+                <input type="radio" name="question2" value="3" id="q2-3"/><label for="q2-3">Earth</label><br />
+                <input type="radio" name="question2" value="4" id="q2-4"/><label for="q2-4">Mercury</label><br />
+            </div>
+
+            <div class="quiz-question">
+                <label class="question3-label" for="question3">3. What is the largest animal in the ocean? </label>
+                <input type="text" id="question3"/>
+            </div>
+            
+            <div class="button-container">
+                <button class="submit" onclick="submitQuiz()">Submit</button>
+                <button class="retry" onclick="retryQuiz()">Retry</button>
+            </div>
+        </div>
+     
+
+        <script src="js/script.js"></script>
+
+
+    </body>
+</html>
